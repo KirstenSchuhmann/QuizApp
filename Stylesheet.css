@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+}
+.header{
+    position: sticky; 
+    top: 0px; 
+    width: 100%; 
+    height: 50px;
+    background-color: rgb(252, 194, 227);
+
+}
+
+.card {
+  position: relative;
+  width: auto; 
+  height: 300px; 
+  padding: 20px; 
+  border: 2px solid;
+  display: inline-block;
+  margin: 20px;
+}
+
+.bookmark {
+  position: absolute;
+  background-image: url(Images/Bookmark.png);
+  top: -15px;
+  right: 20px;
+  height: 55px;
+  width: 40px;
+  padding: 0px;
+  
+}
+.btn {
+  position: absolute;
+  display: flex;
+
+  justify-content: center;
+
+
+.nav-footer {
+  list-style-type: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  border: 4px solid red;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
