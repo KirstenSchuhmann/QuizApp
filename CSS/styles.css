@@ -15,7 +15,7 @@ body {
   position: relative;
   top: 0px;
   width: 100%;
-  height: 55px;
+  height: 60px;
   background-color: antiquewhite;
   margin: auto;
 }
@@ -27,37 +27,23 @@ body {
   padding: 5px;
 }
 
-.card {
+.quiz-card {
   position: relative;
-  width: auto;
+  max-width: 600px;
   height: 300px;
   padding: 20px;
-  border: 2px solid;
+  background-color: rgb(235, 235, 235);
+  filter: drop-shadow(1px 7px 4px #c7c7c7);
+  border-radius: 15px;
   display: flex;
   margin: 20px;
 }
 
-.question {
-}
-
-.Tags {
-  position: absolute;
-  bottom: 15px;
-  background-color: beige;
-  padding: 10px;
-  border-radius: 10px;
-  display: -webkit-inline-box;
-  align-self: start;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  gap: 20px;
-}
-
 .bookmark {
   position: absolute;
-  height: 30px;
-  top: -10px;
-  right: 20px;
+  height: 13%;
+  top: -12px;
+  right: 35px;
 }
 .btn {
   position: absolute;
@@ -68,37 +54,27 @@ body {
 }
 
 .nav-footer {
+  display: flex;
   text-align: center;
   padding: 3px;
   text-decoration: none;
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  height: 90px;
+  bottom: 0px;
   width: 100%;
   background-color: antiquewhite;
 }
 
-.nav-footer li {
-  display: inline-block;
-}
-input.icon-home {
-  position: absolute;
-  left: 20px;
-  bottom: 0;
-  height: 30px;
+.nav-footer {
+  display: flex;
 }
 
-input.icon-bookmark {
+ul.li.icon {
   position: absolute;
-  justify-content: center;
-  bottom: 0;
-  height: 30px;
-}
-
-input.icon-profil {
-  position: absolute;
-  bottom: 0;
-  height: 20px;
+  bottom: 10px;
+  justify-content: space-evenly;
+  height: 30%;
 }
