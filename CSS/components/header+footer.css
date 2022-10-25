@@ -7,24 +7,29 @@
   margin: auto;
 }
 
-quiz-app__footer {
-  position: fixed;
+.quiz-app__title {
+  text-align: center;
+  color: dimgray;
+  text-align: center;
+  padding: 5px;
+}
+
+.quiz-app__footer {
+  position: relative;
   height: 90px;
   bottom: 0px;
+  display: flex;
   width: 100%;
   background-color: antiquewhite;
 }
 
-.quiz-app__footer--nav {
+.quiz-app__footer__nav {
   display: flex;
-  text-align: center;
-  padding: 3px;
-  text-decoration: none;
+  flex-wrap: wrap;
 }
-
-quiz-app__icons {
-  position: absolute;
-  bottom: 10px;
-  justify-content: space-evenly;
-  height: 30%;
+.quiz-app__icons {
+  position: relative;
+  height: 7%;
+  border: 3px solid red;
+  justify-content: space-between;
 }

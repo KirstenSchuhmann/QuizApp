@@ -1,41 +1,7 @@
 @import url(global.css);
 @import url(./components/header+footer.css);
+@import url(./components/quiz-card.css);
 
 :root {
   --main-color: rgb(238, 219, 195);
-}
-
-.quiz-app__title {
-  text-align: center;
-  color: dimgray;
-  text-align: center;
-  padding: 5px;
-}
-
-.quiz-card {
-  position: relative;
-  max-width: 600px;
-  height: 300px;
-  padding: 20px;
-  background-color: rgb(235, 235, 235);
-  filter: drop-shadow(1px 7px 4px #c7c7c7);
-  border-radius: 15px;
-  display: flex;
-  margin: 20px;
-}
-
-.quiz-card__bookmark {
-  position: absolute;
-  height: 13%;
-  top: -12px;
-  right: 35px;
-}
-.quiz-card--answer-button {
-  position: absolute;
-  justify-content: center;
-  align-self: center;
-  margin: 30px;
-  padding: 10px;
-}
-.quiz-card__tags {
 }
