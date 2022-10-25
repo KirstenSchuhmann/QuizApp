@@ -10,36 +10,50 @@
 
   <body>
     <!-- Header -->
-    <header class="header">
-      <h1 class="title">Quiz App</h1>
+    <header class="quiz-app__header">
+      <h1 class="quiz-app__title">Quiz App</h1>
     </header>
-
+    <!-- Quiz-App Karte mit Inhalt -->
     <section class="quiz-card">
-      <input class="bookmark" type="image" src="Images/Bookmark.png" />
-      <p class="question">What property flips the axes in flexbox?</p>
-      <button class="btn">Show answer</button>
-      <div class="tags">
+      <input
+        class="quiz-card__bookmark"
+        type="image"
+        src="Images/Bookmark.png"
+      />
+      <p class="quiz-card__question">
+        What property flips the axes in flexbox?
+      </p>
+      <button class="quiz-card--answer-button">Show answer</button>
+      <div class="quiz-card__tags">
         <p>#html</p>
         <p>#flexbox</p>
         <p>#css</p>
       </div>
     </section>
-
-    <footer class="footer">
+    <!-- Footer mit klickbaren Icons -->
+    <footer class="quiz-app__footer">
       <nav>
-        <ul class="nav-footer" role="list">
-          <li>
-            <input type="image" src="Images/home.png" class="icon home" />
-          </li>
+        <ul class="quiz-app__footer--nav" role="list">
           <li>
             <input
+              class="quiz-app__icons icon-home"
               type="image"
-              src="Images/Bookmark.png"
-              class="icon bookmark"
+              src="Images/home.png"
             />
           </li>
           <li>
-            <input type="image" src="Images/profil.png" class="icon profil" />
+            <input
+              class="quiz-app__icons icon-bookmark"
+              type="image"
+              src="Images/Bookmark.png"
+            />
+          </li>
+          <li>
+            <input
+              class="quiz-app__icons icon-profil"
+              type="image"
+              src="Images/profil.png"
+            />
           </li>
         </ul>
       </nav>

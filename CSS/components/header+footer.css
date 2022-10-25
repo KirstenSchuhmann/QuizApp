@@ -1,0 +1,30 @@
+.quiz-app__header {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: var(--main-color);
+  margin: auto;
+}
+
+quiz-app__footer {
+  position: fixed;
+  height: 90px;
+  bottom: 0px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.quiz-app__footer--nav {
+  display: flex;
+  text-align: center;
+  padding: 3px;
+  text-decoration: none;
+}
+
+quiz-app__icons {
+  position: absolute;
+  bottom: 10px;
+  justify-content: space-evenly;
+  height: 30%;
+}
