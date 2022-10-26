@@ -25,6 +25,13 @@
   bottom: 0px;
 }
 
+.quiz-app__footer__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .quiz-app__icons {
-  display: none;
+  position: absolute;
+  top: 10px;
+  height: 4em;
 }
