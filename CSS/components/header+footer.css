@@ -1,5 +1,6 @@
 .quiz-app__header {
-  margin: auto;
+  margin: 0;
+  margin-bottom: 3em;
   padding: 5px;
   position: relative;
   top: 0px;
