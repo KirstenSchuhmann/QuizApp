@@ -13,25 +13,27 @@
   position: relative;
   font-size: 3em;
   text-align: center;
-  color: dimgray;
+  color: rgb(255, 255, 255);
   padding: 5px;
 }
 
 .quiz-app__footer {
   position: fixed;
   background-color: var(--main-color);
-  height: 90px;
+  height: 100px;
   width: 100%;
   bottom: 0px;
 }
 
 .quiz-app__footer__nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
 }
 
 .quiz-app__icons {
-  position: absolute;
-  top: 10px;
-  height: 4em;
+  height: 50px;
 }
