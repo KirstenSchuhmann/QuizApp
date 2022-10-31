@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+:root {
+  --main-color: rgb(194, 41, 148);
+  --extra-font: @font-face {
+    font-family: "Bombing";
+    src: url(Font/Bombing);
+  }
+}
+
 html {
   height: 100%;
 }

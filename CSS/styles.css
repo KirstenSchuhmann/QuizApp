@@ -1,7 +1,3 @@
 @import url(global.css);
 @import url(./components/header+footer.css);
 @import url(./components/quiz-card.css);
-
-:root {
-  --main-color: rgb(194, 41, 148);
-}
