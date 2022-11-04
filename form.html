@@ -14,14 +14,20 @@
       <h1 class="quiz-app__title">Quiz App</h1>
     </header>
     <!-- Ab hier -> Form -->
-    <form data-js="form">
+    <form class="quiz-app__form" data-js="form">
       <fieldset>
         <legend>Add card</legend>
+
+        <p class="quiz-app__form__description">
+          You want to create your own cards? <br />
+          Great! Add more cards on this page.
+        </p>
 
         <label for="card_question">What's the question?</label>
         <textarea
           name="card_question"
           id="card_question"
+          class="card_question"
           placeholder="Write your question"
         ></textarea>
 
@@ -29,11 +35,12 @@
         <textarea
           name="card_answer"
           id="card_answer"
+          class="card_answer"
           placeholder="Write your answer here"
         ></textarea>
       </fieldset>
 
-      <button type="submit">Add card</button>
+      <button class="add__card__button" type="button">Add card</button>
     </form>
 
     <!-- Footer mit klickbaren Icons -->

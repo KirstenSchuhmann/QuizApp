@@ -28,3 +28,14 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(162, 0, 124);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
