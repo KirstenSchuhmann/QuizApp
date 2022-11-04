@@ -2,7 +2,7 @@
   position: relative;
   width: 90%;
   max-width: 600px;
-  height: 330px;
+  min-height: 330px;
   padding: 20px;
   margin: 0 auto;
   display: flex;
@@ -37,6 +37,7 @@
 }
 
 .quiz-card__answer {
+  bottom: 90px;
   position: absolute;
   align-self: ;
 }
