@@ -14,6 +14,27 @@
       <h1 class="quiz-app__title">Quiz App</h1>
     </header>
     <!-- Ab hier -> Form -->
+    <form data-js="form">
+      <fieldset>
+        <legend>Add card</legend>
+
+        <label for="card_question">What's the question?</label>
+        <textarea
+          name="card_question"
+          id="card_question"
+          placeholder="Write your question"
+        ></textarea>
+
+        <label for="card_answer">What's the answer?</label>
+        <textarea
+          name="card_answer"
+          id="card_answer"
+          placeholder="Write your answer here"
+        ></textarea>
+      </fieldset>
+
+      <button type="submit">Add card</button>
+    </form>
 
     <!-- Footer mit klickbaren Icons -->
     <footer class="quiz-app__footer">
@@ -29,6 +50,11 @@
               ><img
                 src="Images/SVG/bookmark_111017.svg"
                 class="quiz-app__icons icon-bookmark"
+            /></a>
+          </li>
+          <li class="quiz-app__footer__nav__list">
+            <a href="form.html"
+              ><img src="Images/plus.png" class="quiz-app__icons icon-profil"
             /></a>
           </li>
           <li class="quiz-app__footer__nav__list">
