@@ -10,6 +10,7 @@
 }
 
 .quiz-app__title {
+  font-family: "CollegiateBorderFLF";
   position: relative;
   font-size: 3em;
   text-align: center;
