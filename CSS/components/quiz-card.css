@@ -36,6 +36,10 @@
   padding: 15px;
 }
 
+.quiz-card__answer--hidden {
+  visibility: hidden;
+}
+
 .quiz-card__answer {
   bottom: 90px;
   position: absolute;
