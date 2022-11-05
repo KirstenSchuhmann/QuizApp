@@ -5,8 +5,14 @@ const answerBtn = document.querySelector(
 const answer = document.querySelector('[data-js="answer"]');
 const tags = document.querySelector('[data-js="quiz-card__tags"]');
 
-
-answer.addEventListener('click' () => {
-   console.log(answer); 
-
+answerBtn.addEventListener("click", () => {
+  answer.classList.add("addedClassViaJS");
 });
+
+/*
+answer.addEventListener('click', () => {
+   if (answer.classList.contains("quiz-card__answer--hidden")) {
+    answer.setAttribute.
+   }
+});
+*/
