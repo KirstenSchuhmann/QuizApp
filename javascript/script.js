@@ -1,3 +1,4 @@
+const body = document.querySelector("body");
 const question = document.querySelector('[data-js="question"');
 const answerBtn = document.querySelector(
   '[data-js="quiz-card--answer-button"]'
