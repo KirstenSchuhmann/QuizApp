@@ -1,3 +1,10 @@
+/* 
+Alle Darkmodes: 
+.quiz-card--darkmode
+.quiz-card__bookmark--darkmode
+
+*/
+
 .quiz-card {
   position: relative;
   display: flex;
@@ -13,15 +20,32 @@
   border: 3px solid var(--main-color);
 }
 
+.quiz-card--darkmode {
+  border: 2px solid rgb(226, 226, 226);
+  background-color: rgba(41, 43, 70, 0.155);
+}
+
 .quiz-card:hover {
   filter: drop-shadow(1px 7px 4px #5f094c);
 }
 
+.cls-1 {
+  opacity: 0;
+}
+.quiz-card__bookmark__color {
+  fill: var(--main-color);
+}
+
+.quiz-card__bookmark--darkmode {
+  fill: rgb(226, 227, 233);
+  border: 1px solid white;
+}
+
 .quiz-card__bookmark {
   position: absolute;
-  height: 50px;
-  top: -12px;
-  right: 35px;
+  height: 75px;
+  top: -25px;
+  right: 20px;
 }
 
 .quiz-card__question {
@@ -39,7 +63,7 @@
   padding: 15px;
 }
 
-quiz-card__answer--hidden {
+.quiz-card__answer--hidden {
   visibility: hidden;
 }
 .div-card__answer_box {
@@ -60,7 +84,7 @@ quiz-card__answer--hidden {
 }
 
 span {
-  background-color: rgb(126, 46, 81);
+  background-color: var(--second-color);
   font-size: x-small;
   font-weight: 600;
   color: rgb(255, 255, 255);
