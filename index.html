@@ -9,24 +9,20 @@
     <script src="javascript/script.js" defer></script>
   </head>
 
-  <body class="darkmode">
+  <body data-js="body">
     <!-- Header -->
     <header class="quiz-app__header">
       <h1 class="quiz-app__title">Quiz App</h1>
     </header>
     <!-- Quiz-App Karte mit Inhalt -->
     <main>
-      <section class="quiz-card">
-        <!-- <input
-          type="image"
-          src="Images/SVG/bookmark_111017.svg"
-          data-js="quiz-card__bookmark"
-        /> -->
-
+      <section class="quiz-card" data-js="quiz-card">
+        <!-- Bookmark SVG -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           class="quiz-card__bookmark"
+          data-js="bookmark"
         >
           <defs></defs>
           <title>bookmark</title>
@@ -42,7 +38,7 @@
             </g>
           </g>
         </svg>
-
+        <!-- Quiz Frage  -->
         <br />
         <p class="quiz-card__question" data-js="question">
           What property flips the axes in flexbox?
@@ -50,7 +46,7 @@
 
         <button
           class="quiz-card--answer-button"
-          data-js="quiz-card--answer-button"
+          data-js="quiz-card__answer-button"
         >
           Show answer
         </button>

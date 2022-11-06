@@ -24,6 +24,11 @@
   line-height: 1.5em;
 }
 
+.btn-sun {
+  color: transparent;
+  background-color: transparent;
+}
+
 .sun {
   background: url(/Images/SVG/sun.svg) no-repeat;
   width: 40px;

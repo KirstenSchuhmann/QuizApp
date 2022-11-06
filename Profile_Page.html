@@ -13,7 +13,7 @@
     <script src="javascript/script.js" defer></script>
   </head>
 
-  <body class="body">
+  <body data-js="body">
     <!-- Header -->
     <header class="quiz-app__header">
       <h1 class="quiz-app__title">Your Profile</h1>
@@ -27,7 +27,9 @@
         <p class="Quiz-App__Levelstatus">Endgame</p>
       </section>
 
-      <div class="sun" id="sun" alt="change to darkmode" />
+      <button type="button" class="btn-sun" data-js="btn-sun">
+        <div class="sun" data-js="sun" alt="change to darkmode" />
+      </button>
     </section>
 
     <!-- Footer mit klickbaren Icons -->

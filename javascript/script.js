@@ -1,38 +1,29 @@
-const body = document.querySelector("body");
-
-const question = document.querySelector('[data-js="question"');
-const answerBtn = document.querySelector(
-  '[data-js="quiz-card--answer-button"]'
-);
-const answer = document.querySelector('[data-js="answer"]');
-const tags = document.querySelector('[data-js="quiz-card__tags"]');
-
-const sun = document.querySelector('[data-js="sun]');
-
-sun.addEventListener("click", function () {
-  sun.target.classList.toggle("moon"); 
-  if (sun.classList.toggle("sun")) {
-    body.classList.add('body');
-  }
-  else if (sun.classList.add("sun")) {
-    body.classList.add('body');
-  }
-  
-  
-});
-
-});
-
-/* darkmode.addEventListener("click", function () {
-  this.classList.toggle("moon");
-  if (this.classList.toggle("sun")) {
-    body.style.background = "white";
-    body.style.color = "black";
-    body.style.transition = "2s";
-  } else {
-    body.style.background = "black";
-    body.style.color = "white";
-    body.style.transition = "2s";
-  }
-});
+/* 
+Alle Darkmodes: 
+body => .darkmode
+sun => .moon
+quiz-card => .quiz-card--darkmode
+.quiz-card__bookmark--darkmode
 */
+
+const body = document.querySelector('[data-js="body"]');
+const btnSun = document.querySelector('[data-js="btn-sun]');
+const Sun = document.querySelector('[data-js="sun]');
+const answer = document.querySelector('[data-js="answer"]');
+const answerBtn = document.querySelector(
+  '[data-js="quiz-card__answer-button""]'
+);
+const quizCard = document.querySelector('[data-js="quiz-card"]');
+const bookmark = document.querySelector('[data-js="bookmark"]');
+
+// Darkmode Function (Noch nicht vervollständigt!)
+
+btnSun.addEventListener("click", (event) => {
+  body.classList.toggle("darkmode");
+});
+
+// Add Answer
+
+answerBtn.addEventListener("click", () => {
+  answer.classList.toggle("quiz-card__answer--hidden");
+});

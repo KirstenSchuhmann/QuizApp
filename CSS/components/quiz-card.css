@@ -46,6 +46,7 @@ Alle Darkmodes:
   height: 75px;
   top: -25px;
   right: 20px;
+  cursor: pointer;
 }
 
 .quiz-card__question {
@@ -64,7 +65,7 @@ Alle Darkmodes:
 }
 
 .quiz-card__answer--hidden {
-  visibility: hidden;
+  display: none;
 }
 .div-card__answer_box {
   margin: 30px;
