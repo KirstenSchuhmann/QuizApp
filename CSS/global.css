@@ -6,6 +6,7 @@
 
 :root {
   --main-color: rgb(194, 41, 148);
+  --font-color: rgb(194, 41, 148);
   --second-color: rgba(195, 134, 177, 0.793);
   --extra-font: @font-face {
     font-family: "Bombing";
@@ -44,6 +45,7 @@ button {
 .darkmode {
   --main-color: rgb(11, 7, 65);
   --second-color: rgb(37, 51, 84);
+  --font-color: white;
   background-image: linear-gradient(
     210deg,
     rgb(16, 37, 57),

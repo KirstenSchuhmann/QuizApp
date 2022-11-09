@@ -1,21 +1,24 @@
 /* Darkmode Klassen: 
-.moon */
+.moon 
+.nightCat
+*/
 
 .kittyCat {
+  background-repeat: no-repeat;
   position: relative;
   height: 150px;
   margin: 0px 50px 0px 50px;
 }
 
 .nightCat {
-  background: url(/Images/cool-kitty-cat.png);
+  background: url(/Images/cool-kitty-cat.png) no-repeat;
   position: relative;
   height: 150px;
   margin: 0px 50px 0px 50px;
 }
 
 .Quiz-App__Profildaten {
-  color: purple;
+  color: var(--font-color);
   display: flex;
   justify-content: center;
 }
